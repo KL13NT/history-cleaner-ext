@@ -1,0 +1,50 @@
+.container {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.domain-list {
+  margin: 20px 0;
+}
+
+.domain-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.domain-text {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.add-domain {
+  margin-top: 20px;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.status {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.success {
+  background-color: #e7f7e7;
+  color: #2e7d32;
+}
+
+.error {
+  background-color: #ffebee;
+  color: #c62828;
+}
