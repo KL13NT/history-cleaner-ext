@@ -1,7 +1,7 @@
 {
   "name": "history-cleaner",
   "displayName": "History cleaner",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A browser extension that prevents websites from spamming history.",
   "author": "Nabil Tharwat <nabil.tharwat@outlook.com>",
   "scripts": {
