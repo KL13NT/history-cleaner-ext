@@ -1,9 +1,9 @@
 {
   "name": "history-cleaner",
   "displayName": "History cleaner",
-  "version": "0.0.5",
-  "description": "A basic Plasmo extension.",
-  "author": "Plasmo Corp. <foss@plasmo.com>",
+  "version": "0.0.6",
+  "description": "A browser extension that prevents websites from spamming history.",
+  "author": "Nabil Tharwat <nabil.tharwat@outlook.com>",
   "scripts": {
     "dev": "plasmo dev --target=firefox-mv2",
     "build": "plasmo build --target=firefox-mv2",
