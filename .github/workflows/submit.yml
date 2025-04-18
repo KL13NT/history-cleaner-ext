@@ -35,4 +35,3 @@ jobs:
         with:
           keys: ${{ secrets.SUBMIT_KEYS }}
           artifact: build/firefox-mv2-prod.zip
-          verbose: true
