@@ -1,6 +1,12 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+## History Cleaner Ext
 
-## Getting Started
+A browser extension that prevents configured websites from cluttering your
+browsing history. Block social media sites, shopping platforms, or any domains
+you choose from automatically appearing in your history. Customizable through an
+easy-to-use options page where you can add or remove monitored sites. Built
+with [Plasmo](https://docs.plasmo.com/).
+
+## Dev
 
 First, run the development server:
 
