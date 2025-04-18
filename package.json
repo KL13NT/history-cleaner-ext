@@ -26,13 +26,9 @@
     "typescript": "5.3.3"
   },
   "manifest": {
-    "host_permissions": [
-      "https://*/*"
-    ],
     "permissions": [
       "tabs",
       "history",
-      "webNavigation",
       "storage"
     ],
     "browser_specific_settings": {

@@ -37,12 +37,12 @@ function isSocialMediaSite(url: string): boolean {
   }
 }
 
-chrome.tabs.onUpdated.addListener((_, changeInfo) => {
-  if (changeInfo.url && isSocialMediaSite(changeInfo.url)) {
+chrome.history.onVisited.addListener((details) => {
+  if (isSocialMediaSite(details.url)) {
+    console.log(`Social media URL visited: ${details.url}`)
     chrome.history.deleteUrl({
-      url: changeInfo.url
+      url: details.url
     })
-    console.log(`Social media URL visited: ${changeInfo.url}`)
   }
 })
 
