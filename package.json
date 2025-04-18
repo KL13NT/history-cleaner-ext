@@ -1,7 +1,7 @@
 {
   "name": "history-cleaner",
   "displayName": "History cleaner",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A basic Plasmo extension.",
   "author": "Plasmo Corp. <foss@plasmo.com>",
   "scripts": {
@@ -27,7 +27,6 @@
   },
   "manifest": {
     "permissions": [
-      "tabs",
       "history",
       "storage"
     ],
